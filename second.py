@@ -1,10 +1,9 @@
-x = 5 
+mylist = []
+mylist.append(1)
+mylist.append(2)
+mylist.append(3)
+print (mylist[0])
+print(mylist[0:2])
 
-if x == 1:
-    print ("x is 1")
-else:
-    print ("X isn't 1")
-
-
-
-
+for rec in mylist:
+    print rec
